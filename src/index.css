@@ -1,3 +1,15 @@
+#root {
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  --love: oklch(0.65 0.15 355);
+  --sky: oklch(0.66 0.1 245);
+  --pink-ink: oklch(0.48 0.14 355);
+  --blue-ink: oklch(0.43 0.1 245);
+  --pink-edge: oklch(0.9 0.046 350);
+  --blue-edge: oklch(0.9 0.04 240);
+}
+
 * {
   margin: 0 auto;
   padding: 0 auto;
@@ -6,5 +18,4 @@
 
 body {
   background-color: #fff9fc;
-  font-family: "DM Sans", sans-serif;
 }

@@ -15,8 +15,7 @@ const HeadingSection = () => (
       <span className="heading-heart">♡</span>
     </h1>
     <p>
-      So many wishes. So much love.
-      <br />A little corner of the internet, just for you.
+      From your fans
     </p>
     <img
       className="birthday-balloons"
