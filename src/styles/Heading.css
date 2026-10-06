@@ -21,6 +21,10 @@ h1 > span:first-of-type {
   font-weight: 600;
 }
 
+.heading-note {
+  color: var(--love);
+}
+
 h1 svg {
   width: 100%;
   position: absolute;
@@ -50,6 +54,7 @@ h1 svg path {
   font-size: 15px;
   line-height: 1.8;
   color: var(--muted-foreground);
+  font-family: var(--font-sans);
   margin: 0;
 }
 
