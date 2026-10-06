@@ -1,5 +1,5 @@
-import "../../styles/Heading.css"
-import balloons from "../../assets/birthday-balloons.png";
+import "@/styles/Heading.css"
+import balloons from "@/assets/birthday-balloons.png";
 
 const HeadingSection = () => (
   <section className="birthday-heading">
