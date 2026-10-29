@@ -1,3 +1,14 @@
+.app-layout {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.app-main {
+flex: 1;
+width: 100%;
+}
+
 /* Button */
 
 .celebration-control {
@@ -26,4 +37,28 @@
 .round-control:hover {
   background: var(--accent);
   color: var(--love);
+}
+
+/* Footer */
+
+.site-footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 24px 16px;
+  text-align: center;
+  color: var(--muted-foreground, #7a7180);
+  font-family: var(--font-sans, sans-serif);
+  font-size: 13px;
+  border-top: 1px solid var(--pink-edge, #f0c5d2);
+  background-color: #fff9fc;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.footer-spotlight {
+  color: var(--love, #e66a91);
+  display: inline-block;
+  margin: 0 3px;
 }
