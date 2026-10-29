@@ -119,7 +119,7 @@ const WishesSection = () => {
               <input
                 type="search"
                 aria-label="Search wishes"
-                placeholder="Find a name, username, or a little wish…"
+                placeholder="Find a name or a wish…"
                 value={query}
                 onChange={(event) =>
                   changeQuery(event.target.value)
@@ -171,7 +171,7 @@ const WishesSection = () => {
           <div className="empty-wishes">
             <Search />
             <h2>No wishes found</h2>
-            <p>Try another name, username, or word.</p>
+            <p>Try another name or word.</p>
 
             <Button
               variant="outline"
