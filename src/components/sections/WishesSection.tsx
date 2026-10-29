@@ -11,11 +11,10 @@ import {
 
 import { Button } from "@/components/ui/Button"
 import {
-  capitalize,
   Country,
   Usernames,
   WishCard,
-} from "@/components/wish-card"
+} from "@/components/ui/WishCard"
 import wishes from "@/data/wishes.json"
 import "@/styles/Wishes.css"
 
@@ -110,7 +109,6 @@ const WishesSection = () => {
         <div className="wishes-toolbar">
           <div className="wish-count">
             <Heart />
-            <strong>A whole lot of love</strong>
             <span>{wishes.length} birthday wishes</span>
           </div>
 
@@ -240,7 +238,7 @@ const WishesSection = () => {
                     <span className="sender-label">
                       Message from:
                     </span>
-                    <strong>{capitalize(current.name)}</strong>
+                    <strong>{current.name}</strong>
                   </Dialog.Title>
 
                   <Country wish={current} />

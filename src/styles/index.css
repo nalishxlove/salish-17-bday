@@ -7,18 +7,35 @@
 
   --love: oklch(0.65 0.15 355);
   --sky: oklch(0.66 0.1 245);
+
+  --white-paper: oklch(0.998 0.002 350);
   --pink-ink: oklch(0.48 0.14 355);
   --blue-ink: oklch(0.43 0.1 245);
   --pink-edge: oklch(0.9 0.046 350);
   --blue-edge: oklch(0.9 0.04 240);
+  --pink-paper: oklch(0.962 0.025 350);
+  --blue-paper: oklch(0.962 0.024 240);
+  --viewer-shadow: 0 25px 100px oklch(0.4 0.04 320 / 0.15);
+
+  --accent: oklch(0.968 0.007 247.896);
+  --border: oklch(0.929 0.013 255.508);
+
+
+  --foreground: oklch(0.129 0.042 264.695);
+  --muted-foreground: oklch(0.554 0.046 257.417);
 }
 
 * {
-  margin: 0 auto;
-  padding: 0 auto;
   box-sizing: border-box;
 }
 
 body {
   background-color: #fff9fc;
+  margin: 0;
 }
+
+button,
+input {
+  font: inherit;
+}
+
