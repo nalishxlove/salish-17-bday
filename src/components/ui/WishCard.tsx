@@ -12,10 +12,11 @@ export type Wish = {
   tt_username?: string | null
 }
 
-const capitalize = (value: string) => {
-  const text = value.trim().toLocaleLowerCase()
-  return text.charAt(0).toLocaleUpperCase() + text.slice(1)
-}
+const capitalize = (value: string) =>
+  value
+    .trim()
+    .toLocaleLowerCase()
+    .replace(/\b\p{L}/gu, (char) => char.toLocaleUpperCase())
 
 const regions = new Intl.DisplayNames(["en"], {
   type: "region",
@@ -50,6 +51,7 @@ for (let first = 65; first <= 90; first++) {
 }
 
 for (const [name, code] of Object.entries({
+  serbia: "RS",
   usa: "US",
   uk: "GB",
   "united states of america": "US",
