@@ -1,0 +1,29 @@
+/* Button */
+
+.celebration-control {
+  background: var(--accent);
+  color: var(--love);
+  border: 1px solid var(--pink-edge);
+  min-height: 44px;
+  font-size: 12px;
+  padding: 0 18px;
+  flex-shrink: 0;
+}
+
+.celebration-control:hover {
+  background: var(--pink-edge);
+}
+
+.round-control {
+  border: 1px solid var(--border);
+  background: var(--white-paper);
+  color: var(--foreground);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+}
+
+.round-control:hover {
+  background: var(--accent);
+  color: var(--love);
+}
